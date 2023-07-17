@@ -1,5 +1,3 @@
-package CCC2023;
-
 import java.util.Scanner;
 
 public class CCC10J1 {
