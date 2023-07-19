@@ -1,8 +1,10 @@
+package CCC2013;
+
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class CCC13S1 {
+public class S1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

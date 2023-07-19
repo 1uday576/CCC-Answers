@@ -1,13 +1,13 @@
+package CCC2011;
+
 import java.util.Scanner;
 
-public class CCC11J1 {
+public class J1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("");
         int antennae = sc.nextInt();
 
-        System.out.println("");
         int eyes = sc.nextInt();
 
         if(antennae <= 6 && eyes >= 2){
