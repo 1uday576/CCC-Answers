@@ -1,3 +1,5 @@
+package CCC2021;
+
 import java.util.Scanner;
 
 public class CCC21S1 {

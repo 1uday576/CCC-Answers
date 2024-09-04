@@ -1,3 +1,5 @@
+package graph;
+
 public class DisJointUnionSets {
     static int MN = 1005;
     static int[] par = new int[MN];

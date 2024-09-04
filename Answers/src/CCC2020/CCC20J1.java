@@ -1,3 +1,5 @@
+package CCC2020;
+
 import java.util.Scanner;
 
 public class CCC20J1 {

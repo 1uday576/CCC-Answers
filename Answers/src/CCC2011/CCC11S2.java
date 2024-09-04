@@ -1,3 +1,5 @@
+package CCC2011;
+
 import java.util.Scanner;
 
 public class CCC11S2 {

@@ -1,3 +1,5 @@
+package graph;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -15,7 +17,6 @@ public class DFSCanShahir {
         int b = sc.nextInt();
         int MN = 2005;
         visited = new boolean[MN];
-        Queue<Integer> queue = new LinkedList<>();
 
         adj = new ArrayList[MN];
         for (int i=0; i<n+5; i++) {

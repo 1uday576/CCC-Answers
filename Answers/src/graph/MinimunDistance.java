@@ -1,3 +1,5 @@
+package graph;
+
 import java.util.*;
 
 public class MinimunDistance {
@@ -6,7 +8,7 @@ public class MinimunDistance {
     static int[] step = new int[MN];
     static Queue<Integer> q = new LinkedList<>();
     public static void main(String[] args) {
-        Arrays.fill(step, Integer.MAX_VALUE); //set eveyrhting to be as large as possible
+        Arrays.fill(step, Integer.MAX_VALUE); //set everything to be as large as possible
 
 
         Scanner sc = new Scanner(System.in);
@@ -54,7 +56,7 @@ public class MinimunDistance {
     static void dfs(int cur, int steps){
         step[cur] = steps;
         for(int nxt : adj[cur]){
-            if(step[nxt] > step[cur]  +1){
+            if(step[nxt] > step[cur]  + 1){
                 dfs(nxt, steps + 1);
             }
         }
